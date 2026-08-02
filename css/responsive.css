@@ -1,0 +1,289 @@
+/* ==========================================
+        LARGE LAPTOPS
+========================================== */
+
+@media (max-width:1200px){
+
+.search-box{
+
+    width:42%;
+
+}
+
+.hero h1{
+
+    font-size:50px;
+
+}
+
+}
+
+/* ==========================================
+        LAPTOP
+========================================== */
+
+@media (max-width:992px){
+
+.navbar{
+
+    padding:0 30px;
+
+}
+
+.search-box{
+
+    width:40%;
+
+}
+
+.hero{
+
+    height:460px;
+
+}
+
+.hero h1{
+
+    font-size:44px;
+
+}
+
+.hero p{
+
+    font-size:18px;
+
+}
+
+}
+
+/* ==========================================
+        TABLET
+========================================== */
+
+@media (max-width:768px){
+
+.hamburger{
+
+    display:flex;
+
+}
+
+.nav-right a:not(.cart){
+
+    display:none;
+
+}
+
+.search-box{
+
+    position:absolute;
+
+    left:20px;
+
+    right:20px;
+
+    top:85px;
+
+    width:auto;
+
+}
+
+.hero{
+
+    margin-top:70px;
+
+    height:450px;
+
+    padding:20px;
+
+}
+
+.hero-content{
+
+    width:100%;
+
+}
+
+.hero h1{
+
+    font-size:38px;
+
+}
+
+.hero p{
+
+    font-size:17px;
+
+}
+
+.categories{
+
+    padding:50px 20px;
+
+}
+
+.products{
+
+    padding:0 20px 50px;
+
+}
+
+}
+
+/* ==========================================
+        MOBILE
+========================================== */
+
+@media (max-width:576px){
+
+.navbar{
+
+    height:70px;
+
+    padding:0 15px;
+
+}
+
+.logo h2{
+
+    font-size:22px;
+
+}
+
+.search-box{
+
+    top:78px;
+
+}
+
+.search-box input{
+
+    font-size:14px;
+
+}
+
+.hero{
+
+    height:420px;
+
+}
+
+.hero h1{
+
+    font-size:30px;
+
+}
+
+.hero p{
+
+    font-size:15px;
+
+}
+
+.hero button{
+
+    width:100%;
+
+}
+
+.category-grid{
+
+    grid-template-columns:1fr 1fr;
+
+}
+
+.product-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+}
+
+/* ==========================================
+        SMALL PHONES
+========================================== */
+
+@media (max-width:380px){
+
+.logo h2{
+
+    font-size:18px;
+
+}
+
+.hero h1{
+
+    font-size:24px;
+
+}
+
+.hero p{
+
+    font-size:14px;
+
+}
+
+.category-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+}
+/* ==========================================
+   HERO RESPONSIVE
+========================================== */
+
+@media (max-width:768px){
+
+    .hero{
+
+        height:380px;
+
+    }
+
+    .hero-overlay{
+
+        padding:0 30px;
+
+    }
+
+    .hero-overlay h1{
+
+        font-size:34px;
+
+    }
+
+    .hero-overlay p{
+
+        font-size:16px;
+
+    }
+
+    .hero-btn{
+
+        padding:12px 28px;
+
+        font-size:16px;
+
+    }
+
+}
+@media(max-width:768px){
+
+    .cart-item{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+    .cart-summary{
+
+        text-align:center;
+
+    }
+
+}

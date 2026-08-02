@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quantum Store</title>
+
+    <link rel="stylesheet" href="../css/design.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <script src="../js/cart.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="nav-left">
+
+                <div class="hamburger">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+
+                <div class="logo">
+
+                    <h2>Quantum<span>Store</span></h2>
+
+                </div>
+
+            </div>
+
+            <div class="search-box">
+
+                <input
+    type="text"
+    id="searchInput"
+    placeholder="Search products..."
+>
+
+                <button>
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                </button>
+
+            </div>
+
+            <div class="nav-right">
+
+                <a href="login.html">
+
+                    <i class="fa-regular fa-user"></i>
+
+                    Login
+
+                </a>
+
+                <a href="register.html">
+
+                    Register
+
+                </a>
+
+                <a href="#">
+
+                    <i class="fa-regular fa-heart"></i>
+
+                </a>
+
+                <a href="cart.html" class="cart">
+
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                    <span class="cart-count">0</span>
+
+                </a>
+
+            </div>
+
+        </nav>
+
+    </header>
+    <!-- HERO SLIDER -->
+
+<section class="hero">
+
+    <div class="slides">
+
+        <div class="slide active">
+
+    <img src="../images/hero/hero1.jpg" alt="Hero 1">
+
+    <div class="hero-overlay">
+
+        <h1>Discover Amazing Deals</h1>
+
+        <p>Thousands of products at unbeatable prices.</p>
+
+        <a href="#products" class="hero-btn">Shop Now</a>
+
+    </div>
+
+</div>
+
+       <div class="slide">
+
+    <img src="../images/hero/hero2.jpg" alt="Hero 2">
+
+    <div class="hero-overlay">
+
+        <h1>Gaming Essentials</h1>
+
+        <p>Upgrade your setup with premium gear.</p>
+
+        <a href="#products" class="hero-btn">Shop Now</a>
+
+    </div>
+
+</div>
+       <div class="slide">
+
+    <img src="../images/hero/hero3.jpg" alt="Hero 3">
+
+    <div class="hero-overlay">
+
+        <h1>Fashion Collection</h1>
+
+        <p>Fresh styles for every occasion.</p>
+
+        <a href="#products" class="hero-btn">Shop Now</a>
+
+    </div>
+
+</div>
+
+       <div class="slide">
+
+    <img src="../images/hero/hero4.jpg" alt="Hero 4">
+
+    <div class="hero-overlay">
+
+        <h1>Home & Living</h1>
+
+        <p>Everything you need to refresh your home.</p>
+
+        <a href="#products" class="hero-btn">Shop Now</a>
+
+    </div>
+
+</div>
+
+    </div>
+
+    <button class="prev">
+        <i class="fa-solid fa-chevron-left"></i>
+    </button>
+
+    <button class="next">
+        <i class="fa-solid fa-chevron-right"></i>
+    </button>
+
+    <div class="dots">
+
+        <span class="dot active"></span>
+
+        <span class="dot"></span>
+
+        <span class="dot"></span>
+
+        <span class="dot"></span>
+
+    </div>
+
+</section>
+
+    <!-- Mobile Menu -->
+
+    <aside class="mobile-menu">
+
+        <a href="index.html">Home</a>
+
+        <a href="#">Today's Deals</a>
+
+        <a href="#">Electronics</a>
+
+        <a href="#">Fashion</a>
+
+        <a href="#">Gaming</a>
+
+        <a href="#">Books</a>
+
+        <a href="login.html">Login</a>
+
+        <a href="register.html">Register</a>
+
+        <a href="cart.html">Cart</a>
+
+    </aside>
+
+   
+    <!-- Categories -->
+
+    <section class="categories">
+
+        <h2>Popular Categories</h2>
+
+        <div class="category-grid">
+
+            <div class="category-card">Electronics</div>
+
+            <div class="category-card">Gaming</div>
+
+            <div class="category-card">Fashion</div>
+
+            <div class="category-card">Home</div>
+
+            <div class="category-card">Sports</div>
+
+            <div class="category-card">Books</div>
+
+        </div>
+
+    </section>
+
+    <!-- Products -->
+
+    <section class="products" id="products">
+
+        <h2>Featured Products</h2>
+
+        <div class="product-grid">
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <p>
+
+            © 2026 Quantum Store
+
+        </p>
+
+    </footer>
+
+    <script src="../js/menu.js"></script>
+    <script src="../js/app.js"></script>
+
+</body>
+
+</html>
