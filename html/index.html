@@ -18,7 +18,7 @@
 
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-        <script src="../js/cart.js"></script>
+        
 
 </head>
 
@@ -64,19 +64,20 @@
 
             <div class="nav-right">
 
-                <a href="login.html">
+               <a href="login.html" id="login-link">
+    <i class="fa-regular fa-user"></i>
+    Login
+</a>
 
-                    <i class="fa-regular fa-user"></i>
+<a href="register.html" id="register-link">
+    Register
+</a>
 
-                    Login
+<span id="user-welcome" style="display:none;"></span>
 
-                </a>
-
-                <a href="register.html">
-
-                    Register
-
-                </a>
+<a href="#" id="logout-link" style="display:none;">
+    Logout
+</a>
 
                 <a href="#">
 

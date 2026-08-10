@@ -235,3 +235,103 @@ function updateCartCount(){
 
 // Show the correct cart count when the page loads
 updateCartCount();
+// =============================
+// LOGIN STATUS
+// =============================
+
+function updateLoginStatus() {
+
+    const currentUser =
+        JSON.parse(localStorage.getItem("currentUser"));
+
+    const loginLink =
+        document.getElementById("login-link");
+
+    const registerLink =
+        document.getElementById("register-link");
+
+    const userWelcome =
+        document.getElementById("user-welcome");
+
+    const logoutLink =
+        document.getElementById("logout-link");
+
+
+    if (currentUser) {
+
+        // Hide Login and Register
+        if (loginLink) {
+            loginLink.style.display = "none";
+        }
+
+        if (registerLink) {
+            registerLink.style.display = "none";
+        }
+
+
+        // Show username
+        if (userWelcome) {
+
+            userWelcome.textContent =
+                "Hello, " + currentUser.username;
+
+            userWelcome.style.display = "inline";
+        }
+
+
+        // Show Logout
+        if (logoutLink) {
+            logoutLink.style.display = "inline";
+        }
+
+    } else {
+
+        // Show Login and Register
+        if (loginLink) {
+            loginLink.style.display = "inline";
+        }
+
+        if (registerLink) {
+            registerLink.style.display = "inline";
+        }
+
+
+        // Hide username
+        if (userWelcome) {
+            userWelcome.style.display = "none";
+        }
+
+
+        // Hide Logout
+        if (logoutLink) {
+            logoutLink.style.display = "none";
+        }
+
+    }
+
+}
+
+
+// Run when page loads
+updateLoginStatus();
+
+
+// =============================
+// LOGOUT
+// =============================
+
+document.addEventListener("click", function(e) {
+
+    if (e.target.id === "logout-link") {
+
+        e.preventDefault();
+
+        localStorage.removeItem("currentUser");
+
+        updateLoginStatus();
+
+        window.location.href = "index.html";
+
+    }
+
+});
