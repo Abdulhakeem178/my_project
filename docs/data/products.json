@@ -5,7 +5,7 @@
     "category": "Electronics",
     "price": 79.99,
     "rating": 4.8,
-    "image": "../images/products/headphones.jpg"
+    "image": "images/products/headphones.jpg"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "category": "Gaming",
     "price": 45.99,
     "rating": 4.7,
-    "image": "../images/products/mouse.jpg"
+    "image": "images/products/mouse.jpg"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "category": "Fashion",
     "price": 65.99,
     "rating": 4.9,
-    "image": "../images/products/backpack.jpg"
+    "image": "images/products/backpack.jpg"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "category": "Gaming",
     "price": 89.99,
     "rating": 4.9,
-    "image": "../images/products/keyboard.jpg"
+    "image": "images/products/keyboard.jpg"
   },
   {
     "id": 5,
@@ -37,6 +37,6 @@
     "category": "Electronics",
     "price": 59.99,
     "rating": 4.7,
-    "image": "../images/products/speaker.jpg"
+   "image": "images/products/speaker.jpg"
   }
 ]
