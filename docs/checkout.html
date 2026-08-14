@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shopping Cart | Quantum Store</title>
+
+    <link rel="stylesheet" href="css/design.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+
+                <h2>Quantum<span>Store</span></h2>
+
+            </div>
+
+            <div class="nav-right">
+
+    <a href="index.html">
+        <i class="fa-solid fa-house"></i>
+        Home
+    </a>
+
+    <a href="login.html" id="login-link">
+        <i class="fa-regular fa-user"></i>
+        Login
+    </a>
+
+    <a href="register.html" id="register-link">
+        Register
+    </a>
+
+    <span id="user-welcome" style="display:none;"></span>
+
+    <a href="#" id="logout-link" style="display:none;">
+        Logout
+    </a>
+
+    <a href="cart.html" class="cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span class="cart-count">0</span>
+    </a>
+
+</div>
+        </nav>
+
+    </header>
+
+    <main class="checkout-page">
+
+    <h1>Checkout</h1>
+
+    <div class="checkout-container">
+
+        <div class="checkout-form">
+
+            <h2>Shipping Information</h2>
+
+            <input type="text" id="full-name" placeholder="Full Name">
+
+            <input type="email" id="email" placeholder="Email Address">
+
+            <input type="tel" id="phone" placeholder="Phone Number">
+
+            <input type="text" id="address" placeholder="Street Address">
+
+            <input type="text" id="city" placeholder="City">
+
+            <input type="text" id="country" placeholder="Country">
+
+            <input type="text" id="zip" placeholder="ZIP Code">
+        </div>
+
+        <div class="order-summary">
+
+            <h2>Order Summary</h2>
+
+            <p>Total: <strong>$<span id="checkout-total">0.00</span></strong></p>
+
+           <button
+    class="checkout-btn"
+    id="place-order"
+>
+
+    Place Order
+
+</button>
+        </div>
+
+    </div>
+
+</main>
+
+    <script src="../js/checkout.js"></script>
+
+</body>
+
+</html>
